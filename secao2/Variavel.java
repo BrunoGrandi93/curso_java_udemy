@@ -210,10 +210,30 @@ public class Variavel {
 
           System.out.println(codigoAscii);
 
-          //12- Exercícios
+          //12- Constantes
 
+          final int DIAS_DA_SEMANA = 7;
+
+          System.out.println("Dias da semana: " + DIAS_DA_SEMANA);     
           
+          //13 - Interferência de Tipo com var
 
+          var z = 10;
+
+          System.out.println(z);
+
+          //z = "teste";
+
+          z = 5;
+
+          var texto2 = "teste";
+
+          var doubleteste = 2.0;
+
+          System.out.println(texto2);
+
+          System.out.println(doubleteste);
+        
         }
     
 }
