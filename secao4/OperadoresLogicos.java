@@ -31,7 +31,7 @@ public class OperadoresLogicos {
 
     System.out.println(estaChovendo || temGuardaChuva);
 
-    System.out.println(10 > 20 && 100 == 200);
+    System.out.println(10 < 20 && 100 == 200);
 
     int idade2 = 17;
     boolean ehMembro = false;

@@ -41,7 +41,7 @@ public class TesteScanner {
 
         String txt = scanner.nextLine();
 
-        System.out.println("Os dados são: n = " +n + " e txt = " + txt);
+        System.out.println("Os dados são: n = " + n + " e txt = " + txt);
 
         //Fechamento do scanner
         scanner.close();
